@@ -40,7 +40,7 @@
 
 Les contributions sont les bienvenues ! Merci de :
 
-- Créer une branche pour vos modifications.
+- Fork la repository pour vos modifications.
 - Soumettre une **pull request**.
 - Documenter vos changements dans le README si nécessaire.
 
