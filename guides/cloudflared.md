@@ -21,7 +21,7 @@
 
 2. **Se déplacer dans le dossier :**
    ```bash
-   cd scripts/
+   cd script-vps/scripts/
    ```
 
 3. **Rendre le script exécutable :**
