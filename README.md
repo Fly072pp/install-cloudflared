@@ -1,38 +1,17 @@
-# ☁️ Script d'installation de Cloudflared
+# VPS Setup Helper 🛠️
 
----
+Ce projet propose des scripts et guides pour installer facilement des services sur un VPS Linux.
 
-## 📌 Distributions supportées
+## Scripts disponibles
+- Cloudflared
 
-- Arch Linux 🌀
-- Fedora 🟣
-- RHEL / CentOS 🔵
-- Debian 🌀
-- Ubuntu 🟠
+## Comment utiliser
+1. Clone le repo : `git clone https://github.com/Fly072pp/script-vps.git`
+2. Va dans `scripts/` et choisis le script que tu veux !
 
----
+## Guides d'installations
 
-## 📥 Installation
-
-1. **Cloner le dépôt :**
-   ```bash
-   git clone https://github.com/Fly072pp/install-cloudflared
-   ```
-
-2. **Se déplacer dans le dossier :**
-   ```bash
-   cd install-cloudflared/
-   ```
-
-3. **Rendre le script exécutable :**
-   ```bash
-   chmod +x install.sh
-   ```
-
-4. **Lancer le script :**
-   ```bash
-   sudo ./install.sh
-   ```
+- Cloudflared [Clique ici !](https://github.com/Fly072pp/script-vps/blob/main/guides/cloudflared.md)
 
 ---
 
@@ -43,24 +22,3 @@ Les contributions sont les bienvenues ! Merci de :
 - Fork la repository pour vos modifications.
 - Soumettre une **pull request**.
 - Documenter vos changements dans le README si nécessaire.
-
----
-
-## 🛠️ Dépannage (Troubleshooting)
-
-- **Erreur :** `dpkg: dependency problems`  
-  💡 **Solution :** Exécuter :
-  ```bash
-  sudo apt-get install -f -y
-  ```
-
-- **Erreur :** `pacman: keyring`  
-  💡 **Solution :** Exécuter :
-  ```bash
-  sudo pacman -S archlinux-keyring --noconfirm
-  ```
-
-- **Erreur :** `cloudflared: command not found`  
-  💡 **Solution :** Vérifier que `/usr/local/bin` ou `/usr/bin` est bien dans votre PATH.
-  
-**Autres erreurs ?** Crée une Issue
