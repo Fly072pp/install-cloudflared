@@ -21,7 +21,7 @@ echo "🔎 Distribution détectée : $DISTRO"
 echo "🔎 Architecture détectée : $ARCHITECTURE"
 
 case "$DISTRO" in
-  debian|ubuntu)
+  ubuntu)
     echo "📦 Mise à jour des paquets (Debian/Ubuntu)..."
     apt-get update -y
     apt-get install -y software-properties-common
@@ -55,9 +55,14 @@ case "$DISTRO" in
     pacman -S --needed --noconfirm php php-fpm php-apache
     ;;
 
+  debian)
+    echo "📦 Distribution non suportée pour le moment. Désolé..."
+    exit 1
+    ;;
+
   *)
     echo "❌ Distribution non supportée : $DISTRO"
-    echo "👉 Distributions supportées : Debian, Ubuntu, Fedora, RHEL, CentOS, Arch Linux"
+    echo "👉 Distributions supportées : Ubuntu, Fedora, RHEL, CentOS, Arch Linux"
     exit 1
     ;;
 esac
