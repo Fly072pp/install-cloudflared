@@ -4,7 +4,7 @@ Ce projet propose des scripts et guides pour installer facilement des services s
 
 ## Scripts disponibles 📜
 - Cloudflared
-- PHP 8.2
+- PHP 
 
 ## Comment utiliser ❓
 1. Clone le repo : `git clone https://github.com/Fly072pp/script-vps.git`
@@ -13,7 +13,7 @@ Ce projet propose des scripts et guides pour installer facilement des services s
 ## Guides d'installations 📤
 
 - Cloudflared [Clique ici !](https://github.com/Fly072pp/script-vps/blob/main/guides/cloudflared.md)
-- PHP 8.2 [Clique ici !](https://github.com/Fly072pp/script-vps/blob/main/guides/php.md)
+- PHP  [Clique ici !](https://github.com/Fly072pp/script-vps/blob/main/guides/php.md)
 
 ---
 

@@ -12,7 +12,7 @@
 
 ---
 
-## 📥 Installation
+## 📥 Installation PHP 8.2
 
 1. **Cloner le dépôt :**
    ```bash
@@ -26,14 +26,36 @@
 
 3. **Rendre le script exécutable :**
    ```bash
-   chmod +x php.sh
+   chmod +x php8.2.sh
    ```
 
 4. **Lancer le script :**
    ```bash
-   sudo ./php.sh
+   sudo ./php8.2.sh
+   ```
+   
+
+## 📥 Installation PHP 8.3
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/Fly072pp/script-vps
    ```
 
+2. **Se déplacer dans le dossier :**
+   ```bash
+   cd script-vps/scripts/
+   ```
+
+3. **Rendre le script exécutable :**
+   ```bash
+   chmod +x php8.3.sh
+   ```
+
+4. **Lancer le script :**
+   ```bash
+   sudo ./php8.3.sh
+   ```
 ---
 
 ## 🛠️ Dépannage (Troubleshooting)
