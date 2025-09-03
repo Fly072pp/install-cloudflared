@@ -1,4 +1,4 @@
-# ☁️ Script d'installation de Cloudflared
+# ☁️ Script d'installation de Docker
 
 ---
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📥 Installation
+## 📥 Installation Docker
 
 1. **Cloner le dépôt :**
    ```bash
@@ -26,13 +26,14 @@
 
 3. **Rendre le script exécutable :**
    ```bash
-   chmod +x cloudflared.sh
+   chmod +x docker.sh
    ```
 
 4. **Lancer le script :**
    ```bash
-   sudo ./cloudflared.sh
+   sudo ./docker.sh
    ```
+   
 
 ---
 
@@ -50,7 +51,7 @@
   sudo pacman -S archlinux-keyring --noconfirm
   ```
 
-- **Erreur :** `cloudflared: command not found`  
+- **Erreur :** `docker: command not found`  
   💡 **Solution :** Vérifier que `/usr/local/bin` ou `/usr/bin` est bien dans votre PATH.
   
 **Autres erreurs ?** Crée une Issue

@@ -16,7 +16,7 @@
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/Fly072pp/script-vps
+   git clone https://github.com/Fly072pp/script-vps.git
    ```
 
 2. **Se déplacer dans le dossier :**
@@ -40,7 +40,7 @@
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/Fly072pp/script-vps
+   git clone https://github.com/Fly072pp/script-vps.git
    ```
 
 2. **Se déplacer dans le dossier :**
@@ -73,7 +73,7 @@
   sudo pacman -S archlinux-keyring --noconfirm
   ```
 
-- **Erreur :** `cloudflared: command not found`  
+- **Erreur :** `php: command not found`  
   💡 **Solution :** Vérifier que `/usr/local/bin` ou `/usr/bin` est bien dans votre PATH.
   
 **Autres erreurs ?** Crée une Issue
