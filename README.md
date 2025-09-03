@@ -5,6 +5,7 @@ Ce projet propose des scripts et guides pour installer facilement des services s
 ## Scripts disponibles 📜
 - Cloudflared
 - PHP 
+- Docker
 
 ## Comment utiliser ❓
 1. Clone le repo : `git clone https://github.com/Fly072pp/script-vps.git`
