@@ -1,4 +1,4 @@
-# VPS Setup Helper 🛠️
+# Script VPS 🛠️
 
 Ce projet propose des scripts et guides pour installer facilement des services sur un VPS Linux.
 
