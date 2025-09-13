@@ -56,7 +56,18 @@ case "$DISTRO" in
     ;;
 
   debian)
-    echo "📦 Distribution non suportée pour le moment. Désolé..."
+    echo "📦 Installation des packages"
+    sudo apt update
+    sudo apt upgrade
+    echo "🐬 Ajout de Sury"
+    curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
+    echo "📦 Installation de PHP 8.3"
+    sudo apt-get update
+    sudo apt-get install -y php8.3 php8.3-cli php8.3-fpm php8.3-mysql
+    echo "✅ PHP 8.3 installé avec succès"
+    echo "🔧 Test de PHP 8.3"
+    php -v
+    echo "✅ Script terminé avec succès"
     exit 1
     ;;
 

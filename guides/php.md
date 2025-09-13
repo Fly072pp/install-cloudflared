@@ -36,7 +36,6 @@
    
 
 ## 📥 Installation PHP 8.3
-### 💣 ATTENTION NE FONCTIONNE PAS SUR DEBIAN 12 💣
 
 1. **Cloner le dépôt :**
    ```bash
